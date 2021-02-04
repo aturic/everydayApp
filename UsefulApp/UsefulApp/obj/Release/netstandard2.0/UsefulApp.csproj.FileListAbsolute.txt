@@ -1,0 +1,15 @@
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\bin\Release\netstandard2.0\UsefulApp.deps.json
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\bin\Release\netstandard2.0\UsefulApp.dll
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\bin\Release\netstandard2.0\ref\UsefulApp.dll
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\bin\Release\netstandard2.0\UsefulApp.pdb
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\Pages\Points.xaml.g.cs
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.csproj.CoreCompileInputs.cache
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.AssemblyInfoInputs.cache
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.AssemblyInfo.cs
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.dll
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\ref\UsefulApp.dll
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.pdb
+C:\Users\aturic\source\repos\UsefulApp\UsefulApp\UsefulApp\obj\Release\netstandard2.0\UsefulApp.csprojAssemblyReference.cache

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="UsefulApp.Pages.Points">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button" Class="Btn">
+            <Setter Property="BackgroundColor" Value="DeepSkyBlue" />
+            <Setter Property="TextColor" Value="WhiteSmoke" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0, 2.5, 0, 0">
+                <Label Text="Ekipa 1: " VerticalOptions="Center"/>
+                <Entry x:Name="Team1NameEntry" Unfocused="Team1NameEntry_Unfocused" WidthRequest="110" Completed="Team1NameEntry_Completed"/>
+                <Label Text="Cilj: " VerticalOptions="Center"/>
+                <Entry x:Name="GoalPointsEntry" Keyboard="Numeric"  WidthRequest="45" Text="41" HorizontalTextAlignment="Center"/>
+                <Label Text="Ekipa 2: " VerticalOptions="Center"/>
+                <Entry x:Name="Team2NameEntry" Unfocused="Team2NameEntry_Unfocused"  WidthRequest="110" Completed="Team2NameEntry_Completed"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="15, 15, 0, 0">
+                <StackLayout x:Name="Team1Stack" IsVisible="False">
+                    <Label x:Name="Team1NameLbl" FontAttributes="Bold" MinimumWidthRequest="120"/>
+                    <Entry x:Name="Team1ScoreEntry" Keyboard="Numeric" MinimumWidthRequest="120" Completed="Team1ScoreEntry_Completed"/>
+                    <StackLayout x:Name="Team1ScoresStack" HorizontalOptions="Center">
+                        
+                    </StackLayout>
+                    <Label Text="____" HorizontalOptions="Center"/>
+                    <Label x:Name="Team1ScoreLbl" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout x:Name="Team2Stack" IsVisible="False">
+                    <Label x:Name="Team2NameLbl" FontAttributes="Bold" MinimumWidthRequest="120"/>
+                    <Entry x:Name="Team2ScoreEntry" Keyboard="Numeric" MinimumWidthRequest="120" Completed="Team2ScoreEntry_Completed"/>
+                    <StackLayout x:Name="Team2ScoresStack" HorizontalOptions="Center">
+
+                    </StackLayout>
+                    <Label Text="____" HorizontalOptions="Center"/>
+                    <Label x:Name="Team2ScoreLbl" HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout Margin="5, 5">
+                    <Button x:Name="AddPointsBtn" Text="Dodaj" Clicked="AddPointsBtn_Clicked" IsVisible="False" Margin="10, 20" StyleClass="Btn"/>
+                </StackLayout>
+                <StackLayout Margin="70, 0">
+                    <Label x:Name="AkuzaLbl" Text="AKUŽA" IsVisible="False" FontAttributes="Bold"/>
+                    <StackLayout Orientation="Horizontal">
+                        <StackLayout>
+                            <Button x:Name="Akuza1Btn" Clicked="Akuza1Btn_Clicked" IsVisible="False" StyleClass="Btn"/>
+                            <Button x:Name="Akuza2Btn" Clicked="Akuza2Btn_Clicked" IsVisible="False" StyleClass="Btn" Margin="0, 2, 0, 0"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Button x:Name="Akuza1Bodova4Btn" Clicked="Akuza1Bodova4Btn_Clicked" IsVisible="False" Text="(+4)" StyleClass="Btn"/>
+                            <Button x:Name="Akuza2Bodova4Btn" Clicked="Akuza2Bodova4Btn_Clicked" IsVisible="False" Text="(+4)" StyleClass="Btn" Margin="2, 2, 0, 0"/>
+                        </StackLayout>
+                    </StackLayout>
+                    
+                </StackLayout>
+            </StackLayout>
+            <!--<StackLayout VerticalOptions="EndAndExpand" Margin="0, 5">
+                <Button x:Name="AddPointsBtn" Text="Dodaj" Clicked="AddPointsBtn_Clicked"/>
+            </StackLayout>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
